@@ -36,3 +36,19 @@
     transform: translateX(-350px);
     transition: all 500ms ease-in;
   }
+
+.pagination_body{
+  margin-top: 30px;
+  display: flex;
+}
+
+.pagination_main{
+  padding: 10px;
+  border: 1px solid indigo;
+  cursor: pointer;
+}
+
+.pagination_select{
+  background-color: dodgerblue;
+  color: white;
+}
