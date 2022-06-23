@@ -1,5 +1,7 @@
 import { useMemo } from "react";
 
+// useMemo выполняет вычисления и кэщирует результат
+
 export const useSortedPosts =(posts, sort) => {
     const sortedPosts = useMemo(() => {
       if(sort){
